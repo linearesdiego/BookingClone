@@ -1,0 +1,49 @@
+.footer{
+    width: 100%;
+    margin-top: 80px;
+    background-color: #003580;
+    color: white;
+    height: 100px;
+}
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerUp{
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.footerUp button{
+    background-color: #003580;
+    border: 1px solid #ffff;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footerUp button:hover{
+    background-color: rgba(255, 255, 255, 0.423);
+    
+}
+.footerDown{
+    width: 100%;
+    background-color: #003580;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 50px;
+}
+.footerDown p{
+    text-decoration: underline;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}

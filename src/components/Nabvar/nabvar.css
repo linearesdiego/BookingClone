@@ -1,0 +1,27 @@
+.Nabvar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #003580;
+}
+.NabvarContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Nabvar_Logo{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.Nabvar_itemButton{
+    margin-left: 10px;
+    border: 1px solid #0071c2;
+    padding: 5px 10px;
+    color: #0071c2;
+    cursor: pointer;
+}

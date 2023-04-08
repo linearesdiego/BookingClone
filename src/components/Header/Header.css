@@ -1,0 +1,128 @@
+.Header{
+    background-color: #003580;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-family: "Poppins";
+    position: relative;
+}
+.HeaderContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px ;
+}
+.listMode{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 0px 0px ;
+}
+.listNone{
+    display: none;
+}
+.HeaderList{
+    display: flex;
+    gap: 35px;
+}
+.HeaderListItem{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.HeaderListItem.active{
+   border: 1px solid white;
+   padding: 10px;
+   border-radius:20px;
+   background-color: rgba(201, 199, 199, 0.171);
+}
+.HeaderListItem span{
+    font-family: 'Poppins';
+}
+.headerTitle{
+    font-family: "Poopins";
+    font-size: 3em;
+}
+.HeaderDesc{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.headerSearch{
+    height: 30px;
+    background-color:white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+.headerIcon{
+    color: lightgray;
+}
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.headerSearchText{
+    color: lightgray;
+}
+.btn_search{
+    color: white;
+    background-color: #0071c2;
+    border: none;
+    padding: 15px;
+    font-family: "Poopins";
+    line-height: 1px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+.options{
+    position: absolute;
+    background-color:white;
+    top: 50px;
+    color: gray;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 21px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 21px -10px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 21px -10px rgba(0,0,0,0.75);
+    z-index: 2;
+}
+.optionsItem{
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.optionsCount{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size: 12px;
+    color: black;
+}
+.optionsCount button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    cursor: pointer;
+    background-color: white;
+}
+.optionsCount button:disabled{
+    cursor: not-allowed;
+}

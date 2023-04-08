@@ -1,0 +1,55 @@
+.Card {
+    display: flex;
+    justify-content: center;
+}
+
+.CardContainer {
+    margin-top: 80px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.CardContainer h1 {
+    font-family: "Poppins";
+    font-size: 24px;
+}
+
+.CardContainer p {
+    font-family: "Poppins";
+    color: #6b6b6b;
+    margin-bottom: 15px;
+}
+
+.CardItem {
+    position: relative;
+}
+.CardItem img{
+    width: 502px;
+}
+.infoCard {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.infoCard p{
+    font-size: 18px;
+    width: 300px;
+}
+.infoCard button{
+    width: 200px;
+    color: white;
+    font-size: 18px;
+    font-family: "Poopins";
+    background-color: #0071c2;
+    border: none;
+    padding: 8px;
+    font-weight: 500;
+}
+.cardBox{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
